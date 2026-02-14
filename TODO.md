@@ -1,0 +1,1 @@
+- [x] Undo the modifications to make image accompany info-tela1
