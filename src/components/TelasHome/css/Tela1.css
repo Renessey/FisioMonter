@@ -6,6 +6,10 @@ h1 {
   font-style: normal;
 }
 
+.info-tela1 p {
+  color: black;
+}
+
 .buttontela1 .btn-agendar {
   background-color: darkcyan;
   color: white;

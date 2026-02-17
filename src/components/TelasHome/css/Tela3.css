@@ -7,6 +7,10 @@
     font-style: normal;
 }
 
+.info-tela3 p {
+  color: black;
+}
+
 @media screen and (max-width: 425px) {
     .tela3 {
         display: flex;
