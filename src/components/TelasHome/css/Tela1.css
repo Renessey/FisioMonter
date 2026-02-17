@@ -1,303 +1,341 @@
-@import url('https://fonts.googleapis.com/css2?family=Ribeye&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Ribeye&display=swap");
 
-.info-tela1 h1 {
-    font-family: "Ribeye", Arial, Helvetica, serif;
-    font-weight: 700;
-    font-style: normal;
+h1 {
+  font-family: "Ribeye", Arial, Helvetica, serif;
+  font-weight: 700;
+  font-style: normal;
 }
 
-    .buttontela1 .btn-agendar {
-        background-color: darkcyan;
-        color: white;
-    }
+.buttontela1 .btn-agendar {
+  background-color: darkcyan;
+  color: white;
+}
 
 .buttontela1 .btn-servicos {
-        background-color: #333;
-        color: white;
-    }
+  background-color: #333;
+  color: white;
+}
 
 @media screen and (max-width: 425px) {
-    .tela1 {
-        height: 750px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        gap: 20px;
-        
-    }
+  .tela1 {
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+  }
 
-    .info-tela1 {
-        width: 100%;
-    }
+  .info-tela1 {
+    width: 100%;
+  }
 
-    .info-tela1 h1 {
-        font-size: 24px;
-        word-wrap: break-word;
-        color: darkcyan;
-    }
+  .info-tela1 h1 {
+    font-size: 24px;
+    word-wrap: break-word;
+    color: darkcyan;
+  }
 
-    .info-tela1 p {
-        font-size: 16px;
-        line-height: 1.5;
-        box-sizing: border-box;
-        word-wrap: break-word;
-        overflow: hidden;
-        hyphens: auto;
-    }
+  .info-tela1 p {
+    font-size: 16px;
+    line-height: 1.5;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    overflow: hidden;
+    hyphens: auto;
+    color: darkgray;
+  }
 
-    .buttontela1 {
-        position: relative;
-        display: flex;
-        flex-direction: column;
-        font-size: 16px;
-        gap: 15px;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
+  .buttontela1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    gap: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 
-    .buttontela1 .btn-agendar {
-        background-color: darkcyan;
-    }
+  .buttontela1 .btn-agendar {
+    background-color: darkcyan;
+  }
 
-    .buttontela1 .btn-servicos {
-        background-color: #333;
-    }
-    .tela1 img {
-        width: 100%;
-        height: 289px;
-    }
+  .buttontela1 .btn-servicos {
+    background-color: #333;
+  }
+  .tela1 img {
+    width: 100%;
+    height: 289px;
+  }
 }
 
 @media screen and (min-width: 426px) and (max-width: 768px) {
-        .tela1 {
-        height: 750px;
-        width: 100%;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        gap: 20px;
-    }
+  .tela1 {
+    height: 750px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+  }
 
-    .info-tela1 {
-        width: 100%;
-    }
+  .info-tela1 {
+    width: 100%;
+  }
 
-    .info-tela1 h1 {
-        text-align: center;
-        font-size: 24px;
-        word-wrap: break-word;
-        color: darkcyan;
-    }
+  .info-tela1 h1 {
+    text-align: center;
+    font-size: 24px;
+    word-wrap: break-word;
+    color: darkcyan;
+  }
 
-    .info-tela1 p {
-        font-size: 16px;
-        line-height: 1.5;
-        margin: 0 auto;
-        box-sizing: border-box;
-        word-wrap: break-word;
-        text-align: center;
-        overflow: hidden;
-        hyphens: auto;
-        margin-bottom: 2rem;
-        margin-top: 1rem;
-        width: 80%;
-    }
+  .info-tela1 p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    box-sizing: border-box;
+    word-wrap: break-word;
+    text-align: center;
+    overflow: hidden;
+    hyphens: auto;
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    width: 80%;
+    color: darkgray;
+  }
 
-    .buttontela1 {
-        width: 80%;
-        display: flex;
-        flex-direction: row;
-        font-size: 16px;
-        align-items: center;
-        justify-content: center;
-        gap: 15px;
-        color: white;
-        margin: 0 auto;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
+  .buttontela1 {
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    color: white;
+    margin: 0 auto;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 
-    .buttontela1 .btn-agendar {
-        background-color: darkcyan;
-    }
+  .buttontela1 .btn-agendar {
+    background-color: darkcyan;
+  }
 
-    .buttontela1 .btn-servicos {
-        background-color: none;
-    }
-    .tela1 img {
-        width: 70%;
-        height: 289px;
-    }
+  .buttontela1 .btn-servicos {
+    background-color: none;
+  }
+  .tela1 img {
+    width: 70%;
+    height: 289px;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .tela1 {
-        height: 90vh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 3rem;
-    }
+  .tela1 {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 5rem;
+  }
 
-    .info-tela1 {
-        width: 400px;
-    }
+  .info-tela1 {
+    width: 450px;
+    height: 500px;
+    background-color: #333;
+    margin-top: 4rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .info-tela1 h1 {
-        font-size: 24px;
-        margin-bottom: 1rem;
-        word-wrap: break-word;
-        color: darkcyan;
-    }
+  .info-tela1 h1 {
+    font-size: 42px;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+    color: rgb(255, 255, 255);
+  }
 
-    .info-tela1 p {
-        font-size: 16px;
-        line-height: 1.5;
-        margin-bottom: 2rem;
-        word-wrap: break-word;
-    }
+  .info-tela1 p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    word-wrap: break-word;
+    color: darkgray;
+  }
 
-    .buttontela1 {
-        display: flex;
-        width: 400px;
-        padding: 1rem;
-        font-size: 16px;
-        gap: 15px;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
+  .buttontela1 {
+    display: flex;
+    width: 400px;
+    padding: 1rem;
+    font-size: 16px;
+    gap: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 
-    .buttontela1 .btn-agendar {
-        background-color: darkcyan;
-    }
+  .buttontela1 .btn-agendar {
+    background-color: darkcyan;
+  }
 
-    .buttontela1 .btn-servicos {
-        background-color: none;
-    }
-    .tela1 img {
-        width: 299px;
-        height: 350px;
-    }
+  .buttontela1 .btn-servicos {
+    background-color: none;
+  }
+  .tela1 img {
+    width: 299px;
+    height: 350px;
+  }
 }
 
 @media screen and (min-width: 1025px) and (max-width: 1440px) {
-    .tela1 {
-        height: 90vh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 3rem;
-    }
+  .tela1 {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 4rem;
+  }
 
-    .info-tela1 {
-        width: 400px;
-        margin-top: 4rem;
-    }
+  .info-tela1 {
+    width: 400px;
+    height: 550px;
+    background-color: #333;
+    margin-top: 4rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .info-tela1 h1 {
-        font-size: 24px;
-        margin-bottom: 1rem;
-        word-wrap: break-word;
-        color: darkcyan;
-    }
+  .info-tela1 h1 {
+    font-size: 42px;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+    color: rgb(255, 255, 255);
+  }
 
-    .info-tela1 p {
-        font-size: 16px;
-        line-height: 1.5;
-        margin-bottom: 2rem;
-        word-wrap: break-word;
-    }
+  .info-tela1 p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    word-wrap: break-word;
+    color: darkgray;
+  }
 
-    .buttontela1 {
-        display: flex;
-        padding: 1rem;
-        font-size: 16px;
-        gap: 15px;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
+  .buttontela1 {
+    display: flex;
+    padding: 1rem;
+    font-size: 16px;
+    gap: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 
-    .buttontela1 .btn-agendar {
-        background-color: darkcyan;
-    }
+  .buttontela1 .btn-agendar {
+    background-color: darkcyan;
+  }
 
-    .buttontela1 .btn-servicos {
-        background-color: none;
-    }
-    .tela1 img {
-        width: 600px;
-        height: 600px;
-    }
+  .buttontela1 .btn-servicos {
+    background-color: none;
+  }
+  .tela1 img {
+    width: 600px;
+    height: 600px;
+  }
 }
 
 @media screen and (min-width: 1441px) and (max-width: 2560px) {
-    .tela1 {
-        height: 90vh;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 15rem;
-    }
+  .tela1 {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+    margin-top: 5rem;
+  }
 
-    .info-tela1 {
-        width: 400px;
-        margin-top: 4rem;
-    }
+  .info-tela1 {
+    width: 500px;
+    height: 450px;
+    border-radius: 2rem;
+    margin-top: 4rem;
+    background-color: #333;
+    padding: 3rem;
+    overflow: hidden;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
-    .info-tela1 h1 {
-        font-size: 24px;
-        margin-bottom: 1rem;
-        word-wrap: break-word;
-        color: darkcyan;
-    }
+  .info-tela1 h1 {
+    font-size: 42px;
+    margin-bottom: 1rem;
+    word-wrap: break-word;
+    color: rgb(255, 255, 255);
+  }
 
-    .info-tela1 p {
-        font-size: 16px;
-        line-height: 1.5;
-        margin-bottom: 2rem;
-        word-wrap: break-word;
-    }
+  .info-tela1 p {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+    word-wrap: break-word;
+    color: darkgray;
+  }
 
-    .buttontela1 {
-        display: flex;
-        padding: 1rem;
-        font-size: 16px;
-        gap: 15px;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s ease;
-    }
+  .buttontela1 {
+    display: flex;
+    padding: 1rem;
+    font-size: 16px;
+    gap: 15px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
 
-    .buttontela1 .btn-agendar {
-        background-color: darkcyan;
-    }
+  .buttontela1 .btn-agendar {
+    background-color: darkcyan;
+  }
 
-    .buttontela1 .btn-servicos {
-        background-color: none;
-    }
-    .tela1 img {
-        width: 600px;
-        height: 600px;
-    }
+  .buttontela1 .btn-servicos {
+    background-color: none;
+  }
+  .tela1 img {
+    width: 600px;
+    height: 600px;
+  }
 }

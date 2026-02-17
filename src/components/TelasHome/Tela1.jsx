@@ -9,7 +9,7 @@ export default function Tela1() {
 
             <div className="buttontela1">
               <button className="btn-agendar">Agendar Consulta</button>
-              <button className="btn-servicos">Nossos Serviços</button>
+              <button className="btn-P">Nossos Serviços</button>
             </div>
         </div>
           <img src="/images/fisio.png" alt="Home Illustration" />

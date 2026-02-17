@@ -1,16 +1,14 @@
-    .home-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 10px;
-    }
-    
-    .buttontela1 .btn-servicos:hover {
-        background-color: #333;
-    }
-    .buttontela1 .btn-agendar:hover {
-        background-color: rgba(0, 139, 139, 0.781);
-    }
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
 
-
+.buttontela1 .btn-servicos:hover {
+  background-color: #333;
+}
+.buttontela1 .btn-agendar:hover {
+  background-color: rgba(0, 139, 139, 0.781);
+}
