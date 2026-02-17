@@ -44,7 +44,7 @@
         word-wrap: break-word;
         overflow: hidden;
         hyphens: auto;
-        color: darkgray;
+        color: rgb(0, 0, 0);
     }
 
     /* Imagens */ 
@@ -142,7 +142,7 @@
         overflow: hidden;
         hyphens: auto;
         text-align: center;
-        color: darkgray;
+        color: rgb(0, 0, 0);
     }
 
     /* Imagens */ 
@@ -236,7 +236,7 @@
         word-wrap: break-word;
         overflow: hidden;
         hyphens: auto;
-        color: darkgray;
+        color: rgb(0, 0, 0);
     }
 
     /* Imagens */ 
@@ -334,7 +334,7 @@
         overflow: hidden;
         hyphens: auto;
         text-align: center;
-        color: darkgray;
+        color: rgb(0, 0, 0);
     }
 
     /* Imagens */ 
@@ -432,7 +432,7 @@
         overflow: hidden;
         hyphens: auto;
         text-align: center;
-        color: darkgray;
+        color: rgb(0, 0, 0);
     }
 
     /* Imagens */ 
@@ -529,7 +529,7 @@
         word-wrap: break-word;
         overflow: hidden;
         hyphens: auto;
-        color: darkgray;
+        color: rgb(0, 0, 0);
     }
 
     .img-tela3 {

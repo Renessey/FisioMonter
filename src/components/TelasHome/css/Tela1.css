@@ -6,10 +6,6 @@ h1 {
   font-style: normal;
 }
 
-.info-tela1 p {
-  color: black;
-}
-
 .buttontela1 .btn-agendar {
   background-color: darkcyan;
   color: white;
@@ -49,7 +45,7 @@ h1 {
     word-wrap: break-word;
     overflow: hidden;
     hyphens: auto;
-    color: darkgray;
+    color: rgb(0, 0, 0);
   }
 
   .buttontela1 {
@@ -113,7 +109,7 @@ h1 {
     margin-bottom: 2rem;
     margin-top: 1rem;
     width: 80%;
-    color: darkgray;
+    color: rgb(0, 0, 0);
   }
 
   .buttontela1 {
@@ -183,7 +179,7 @@ h1 {
     line-height: 1.5;
     margin-bottom: 2rem;
     word-wrap: break-word;
-    color: darkgray;
+    color: rgb(0, 0, 0);
   }
 
   .buttontela1 {
@@ -242,7 +238,7 @@ h1 {
     font-size: 42px;
     margin-bottom: 1rem;
     word-wrap: break-word;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
 
   .info-tela1 p {
@@ -308,7 +304,7 @@ h1 {
     font-size: 42px;
     margin-bottom: 1rem;
     word-wrap: break-word;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
   }
 
   .info-tela1 p {

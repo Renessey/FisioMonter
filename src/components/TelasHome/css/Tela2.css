@@ -38,7 +38,7 @@
     overflow: hidden;
     hyphens: auto;
     box-sizing: border-box;
-    color: darkgray;
+    color: rgb(0, 0, 0);
   }
 
   .img-tela2 {
@@ -89,7 +89,7 @@
     overflow: hidden;
     hyphens: auto;
     width: 80%;
-    color: darkgray;
+    color: rgb(0, 0, 0);
   }
 
   .img-tela2 {
@@ -143,7 +143,7 @@
     width: 80%;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    color: darkgray;
+    color: rgb(0, 0, 0);
   }
 
   .img-tela2 {
@@ -196,7 +196,7 @@
     width: 80%;
     margin-top: 2rem;
     margin-bottom: 2rem;
-    color: darkgray;
+    color: rgb(0, 0, 0);
   }
 
   .img-tela2 {
@@ -245,7 +245,7 @@
     word-wrap: break-word;
     overflow: hidden;
     hyphens: auto;
-    color: darkgray;
+    color: rgb(0, 0, 0);
   }
 
   .img-tela2 {
