@@ -6,12 +6,10 @@
   padding: 1rem;
   margin: 0 auto;
 }
-
 #footerid:hover {
   color: rgb(212, 209, 209);
   text-decoration: none;
 }
-
 .social-icon {
   display: flex;
   align-items: center;
@@ -23,25 +21,19 @@
   color: rgb(255, 255, 255);
   transition: all 0.3s ease;
 }
-
-
-
 .social-icon:hover {
   background-color: rgba(255, 255, 255, 0.3);
   transform: scale(1.1);
 }
 
 @media screen and (max-width: 425px) {
-}
-
-@media screen and (min-width: 426px) and (max-width: 768px) {
   .footer {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    display: flex;
+    flex-direction: column-reverse;
     width: 100%;
-    height: 20rem;
+    height: 28rem;
     background-color: darkcyan;
-    margin: 0;
+    gap: 1.5rem;
   }
 
   .sociais-footer a {
@@ -62,22 +54,66 @@
     box-sizing: border-box;
     margin: 0 auto;
     justify-content: center;
-    align-items: left;
+    align-items: center;
     padding: 1rem;
-    font-size: 14px;
+    text-align: center;
+    font-size: 16px;
     color: #fff;
-    
   }
 
   .infosite {
     display: flex;
-    flex-direction: column;
     margin: 0 auto;
     justify-content: center;
     align-items: left;
     padding: 1rem;
     gap: 1rem;
-    font-size: 14px;
+    font-size: 16px;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .footer {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    height: 28rem;
+    background-color: darkcyan;
+    gap: 1.5rem;
+  }
+
+  .sociais-footer a {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+
+  .social-icon svg {
+    width: 34px;
+    height: 34px;
+    margin-bottom: -1rem;
+  }
+
+  .info-footer {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    font-size: 16px;
+    color: #fff;
+  }
+
+  .infosite {
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: left;
+    padding: 1rem;
+    gap: 1rem;
+    font-size: 16px;
   }
 }
 
@@ -113,7 +149,6 @@
     padding: 1rem;
     font-size: 16px;
     color: #fff;
-    
   }
 
   .infosite {
@@ -136,7 +171,6 @@
     height: 20rem;
     background-color: darkcyan;
     margin: 0;
-    
   }
 
   .sociais-footer a {
@@ -161,7 +195,6 @@
     padding: 1rem;
     font-size: 16px;
     color: #fff;
-    
   }
 
   .infosite {
@@ -184,7 +217,6 @@
     height: 20rem;
     background-color: darkcyan;
     margin: 0;
-    
   }
 
   .sociais-footer a {
