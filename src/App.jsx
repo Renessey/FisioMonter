@@ -4,6 +4,8 @@ import Home from './components/Home.jsx';
 import Servicos from './components/Servicos.jsx';
 import Sobre from './components/Sobre.jsx';
 import Contato from './components/Contato.jsx';
+import Footer from './components/TelasHome/Footer.jsx';
+import '../src/App.css'
 
 // Placeholder components for routes
 

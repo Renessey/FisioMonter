@@ -1,5 +1,9 @@
-import './css/Servicos.css';
+import "./css/Servicos.css";
 
 export default function Servicos() {
-  return <h2>Serviços</h2>;
+  return (
+    <div id="Servicos">
+      <h2>Serviços</h2>
+    </div>
+  );
 }
